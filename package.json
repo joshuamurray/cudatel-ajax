@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/avaza/cudatel-ajax.git"
+    "url": "https://github.com/joshuamurray/cudatel-ajax.git"
   },
   "keywords": [
     "cudatel",
@@ -14,9 +14,9 @@
   "author": "Josh Murray <joshomurray@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/avaza/cudatel-ajax/issues"
+    "url": "https://github.com/joshuamurray/cudatel-ajax/issues"
   },
-  "homepage": "https://github.com/avaza/cudatel-ajax",
+  "homepage": "https://github.com/joshuamurray/cudatel-ajax",
   "dependencies": {
     "request": "^2.60.0"
   },
