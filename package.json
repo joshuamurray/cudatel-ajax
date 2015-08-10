@@ -1,6 +1,6 @@
 {
   "name": "cudatel-ajax",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node.js AJAX request handler for sending AJAX requests to a \"CudaTel\" PBX server, without the need of a reverse proxy",
   "main": "index.js",
   "repository": {
