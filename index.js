@@ -15,12 +15,7 @@ var stream = require( "./lib/stream" );
  */
 module.exports = stream;
 
-/**
- * Creates a new configuation file if one does not yet exist.
- */
-var bootstrap = function(){
-
-}
+var bootstrap = function(){}
 
 bootstrap();
 
