@@ -1,17 +1,17 @@
 {
   "def_env": "local",
   "local": {
-    "host": "<CudaTel Server Local Host IP/Address>",
+    "host": "192.168.1.254",
     "def_user": {
-      "user": "<CudaTel Username>",
-      "pass": "<CudaTel Password>"
+      "user": "5041",
+      "pass": "1405"
     }
   },
   "remote": {
-    "host": "<CudaTel Server Remote Host IP/Address>",
+    "host": "208.185.141.42",
     "def_user": {
-      "user": "<CudaTel Username>",
-      "pass": "<CudaTel Password>"
+      "user": "5041",
+      "pass": "1405"
     }
   }
 }
