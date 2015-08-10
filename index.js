@@ -1,5 +1,13 @@
-var stream = require( "./lib/stream" );
+/**
+ * Primary requirements
+ * @type {Storage|exports}
+ */
 var Storage = require( "storage.json" );
+
+/**
+ * The instance of the AjaxStream module.
+ */
+var stream;
 
 /**
  * Creates a new configuation file if one does not yet exist.
@@ -25,13 +33,18 @@ var bootstrap = function(){
 
     var configFile = new Storage( "cudatel-ajax" );
 
-    configFile.load( "def_env", function( loaded ){
-        if( ! loaded ) configFile.push( config, function( created ){
+    configFile.load( null, function( loaded ){
+        if( Object.getOwnPropertyNames( loaded).length == 0 ) configFile.push( config, function( created ){
             if( created[ "def_env" ]) console.log( "cudatel-ajax.json file created." );
         });
+
+        stream = require( "./lib/stream" );
+
+        module.exports = stream;
     });
 }
 
 bootstrap();
 
-module.exports = stream;
+
+
