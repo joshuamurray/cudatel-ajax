@@ -1,5 +1,5 @@
 {
-  "def_env": "local",
+  "def_env": "<Default Environment ie: local OR remote >",
   "local": {
     "host": "<Local CudaTel Address/IP>",
     "def_user": {
@@ -13,5 +13,6 @@
       "user": "<CudaTel Username>",
       "pass": "<CudaTel Password>"
     }
-  }
+  },
+  "session_file_path": "relative_path/to/session/storage/bps_sessions"
 }
