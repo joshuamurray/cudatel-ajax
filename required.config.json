@@ -1,0 +1,17 @@
+{
+  "def_env": "local",
+  "local": {
+    "host": "<Local CudaTel Address/IP>",
+    "def_user": {
+      "user": "<CudaTel Username>",
+      "pass": "<CudaTel Password>"
+    }
+  },
+  "remote": {
+    "host": "<Remote CudaTel Address/IP>",
+    "def_user": {
+      "user": "<CudaTel Username>",
+      "pass": "<CudaTel Password>"
+    }
+  }
+}
